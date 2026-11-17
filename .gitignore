@@ -1,0 +1,36 @@
+# Bundled Windows Python runtime — distributed via GitHub Releases, not git
+python/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Research data — never commit tracking or survey data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+data/
+
+# Exported results and release bundles
+*.zip
+
+# Streamlit secrets (if ever added)
+.streamlit/secrets.toml
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor / OS / tool clutter
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
