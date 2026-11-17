@@ -11,5 +11,5 @@ echo (Close this window to stop the application)
 echo.
 
 set PYTHONPATH=%~dp0
-"%~dp0python\python.exe" -m streamlit run "%~dp0Home_v4.py" --server.port 8501
+"%~dp0python\python.exe" -m streamlit run "%~dp0Home.py" --server.port 8501
 pause

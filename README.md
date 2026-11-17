@@ -4,7 +4,7 @@ A Streamlit application for analysing UWB position-tracking data (TrackLab expor
 
 Developed as part of a master's thesis.
 
-Current version: **v1.2.1**
+Current version: **v1.2.2**
 
 ## Quick start (Windows, no installation)
 
@@ -29,7 +29,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows
 # source .venv/bin/activate   # macOS / Linux
 pip install -r requirements.txt
-streamlit run Home_v4.py
+streamlit run Home.py
 ```
 
 ## Input data format
@@ -46,13 +46,13 @@ Semicolon-delimited (`;`) CSV files with the columns:
 ## Project structure
 
 ```
-Home_v4.py                  Entry page
+Home.py                     Entry page
 pages/
   1_Upload_and_Inspect.py   Upload and inspect CSV data
   2_Clean_and_Configure.py  Cleaning settings and configuration
   3_Analysis_and_Run.py     Run the pipeline and export results
-social_analysis_v13.py      Core analysis pipeline
-streamlit_subsets_v6.py     Subset builder and shared UI helpers
+social_analysis.py          Core analysis pipeline
+streamlit_subsets.py        Subset builder and shared UI helpers
 .streamlit/config.toml      Streamlit settings
 TrackLab - Companion - Start.bat   Windows launcher (uses the bundled runtime)
 ```

@@ -150,7 +150,7 @@ import pandas as pd
 
 warnings.filterwarnings('ignore', message='.*Pyarrow.*', category=DeprecationWarning)
 
-log = logging.getLogger('social_analysis_v11')
+log = logging.getLogger('social_analysis')
 
 # Rows per block for timestamp parsing (bounds temporary memory; output identical).
 _PARSE_BLOCK_ROWS = 1_000_000

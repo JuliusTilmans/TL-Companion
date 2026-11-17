@@ -34,7 +34,7 @@ Return contract is identical to v1 for backward compatibility:
     [{'name': str, 'windows': list, 'window_mode': str|None}, ...]
 
 USAGE:
-    from streamlit_subsets_v6 import render_subset_builder_v3, render_tag_selector
+    from streamlit_subsets import render_subset_builder_v3, render_tag_selector
 
     subsets = render_subset_builder_v3(available_dates, raw_df)
 """
@@ -44,7 +44,7 @@ import pandas as pd
 import numpy as np
 from datetime import time as dt_time
 
-from social_analysis_v13 import _time_of_day_us, _clock_us, parse_timestamps
+from social_analysis import _time_of_day_us, _clock_us, parse_timestamps
 
 
 def parsed_timestamps(raw_df):

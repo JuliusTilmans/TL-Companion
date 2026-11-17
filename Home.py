@@ -2,7 +2,7 @@
 TrackLab - Companion — Social Interaction Analysis Tool
 Main entry point for the Streamlit application.
 
-Run with: streamlit run Home_v4.py
+Run with: streamlit run Home.py
 
 2026-10-18: data-format table now says times without fractional seconds are
 accepted (page 1 change of the same date). Text only.
@@ -119,8 +119,6 @@ with col3:
 
 
 st.markdown("---")
-
-FEEDBACK_FORM_URL = "https://forms.gle/REPLACE_WITH_REAL_FORM_LINK"
 
 st.info(
     f"""

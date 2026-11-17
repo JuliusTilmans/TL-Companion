@@ -102,7 +102,7 @@ import json
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from social_analysis_v13 import (
+from social_analysis import (
     apply_dead_zones, process_all,
     run_analysis, run_analysis_multi_distance,
     compute_metrics, filter_subset_windows,
@@ -111,7 +111,7 @@ from social_analysis_v13 import (
     refresh_velocity,
     build_dyad_proximity_table,
 )
-from streamlit_subsets_v6 import render_subset_builder_v3, parsed_timestamps
+from streamlit_subsets import render_subset_builder_v3, parsed_timestamps
 
 
 st.set_page_config(page_title="Define Analysis & Run", page_icon="▶️", layout="wide")

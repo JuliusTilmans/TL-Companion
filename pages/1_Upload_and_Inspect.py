@@ -114,8 +114,8 @@ import sys
 import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from streamlit_subsets_v6 import parsed_timestamps, cached_for_upload
-from social_analysis_v13 import parse_ddmmyyyy_fast
+from streamlit_subsets import parsed_timestamps, cached_for_upload
+from social_analysis import parse_ddmmyyyy_fast
 
 
 st.set_page_config(page_title="Upload & Inspect", page_icon="📂", layout="wide")

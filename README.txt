@@ -1,9 +1,10 @@
 ============================================
-  TrackLab - Companion  v1.2
+  TrackLab - Companion  v1.2.2
   Social Interaction Analysis Tool
 ============================================
 
-Full instructions: User_Guide_TracklabCompanion_v5_short.pdf (in this folder)
+Full instructions: see the user guide (PDF) on the GitHub release page
+                   where you downloaded this tool
 
 HOW TO USE:
   1. Double-click "TrackLab - Companion - Start.bat"

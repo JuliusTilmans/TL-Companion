@@ -179,8 +179,8 @@ import sys
 import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from streamlit_subsets_v6 import parsed_timestamps, cached_for_upload
-from social_analysis_v13 import (
+from streamlit_subsets import parsed_timestamps, cached_for_upload
+from social_analysis import (
     dead_zone_impact,
     compute_velocity_distribution_from_raw,
 )
